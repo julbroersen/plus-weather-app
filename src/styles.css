@@ -1,0 +1,85 @@
+body {
+  background: rgba(249, 247, 253);
+  font-family: "Roboto", serif;
+}
+
+header {
+  border-bottom: 1px solid rgba(249, 247, 253);
+  padding-bottom: 30px;
+}
+
+main {
+  border-bottom: 1px solid rgba(249, 247, 253);
+}
+
+footer {
+  color: rgba(39, 33, 66, 0.4);
+  text-align: center;
+}
+
+a {
+  color: rgba(136, 93, 241);
+}
+
+.search-box {
+  background: rgba(249, 247, 253);
+  border: 1px solid rgba(249, 247, 253);
+  border-radius: 4px;
+  color: rgba(39, 33, 66, 0.4);
+  padding: 20px;
+  width: 80%;
+}
+
+.search-button {
+  color: white;
+  background: rgba(136, 93, 241);
+  border: 1px solid rgba(136, 93, 241);
+  border-radius: 4px;
+  padding: 20px;
+  margin-left: 5px;
+  width: 15%;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  margin: 20px 60px;
+  padding: 30px;
+  max-width: 90%;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.current-details strong {
+  color: rgba(246, 82, 129);
+}
+
+.current-temperature-icon {
+  position: relative;
+  font-size: 40px;
+  top: -8px;
+  margin-right: 5px;
+}
+
+.current-temperature-value {
+  position: relative;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.current-temperature-unit {
+  position: relative;
+  top: -38px;
+  font-size: 28px;
+}
+
+a:hover {
+  cursor: pointer;
+}
